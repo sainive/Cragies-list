@@ -1,0 +1,118 @@
+    * {
+        box-sizing: border-box;
+    }
+
+    header {
+        background-color: grey;
+        height: 60px;
+        margin-left: 0px;
+        margin-right: 0px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    h1 {
+        width: auto;
+        display: inline-block;
+    }
+
+    nav {
+        height: 60px;
+        float: right;
+        width: auto;
+        display: inline-block;
+    }
+
+    .head ul li {
+        list-style: none;
+        display: inline-block;
+        padding-left: 10px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+
+    .search {
+        margin-left: 150px;
+        margin-top: 90px;
+    }
+
+    .search input[type="text"] {
+        height: 25px;
+        width: 300px;
+        border-radius: 10%;
+        display: inline-block;
+    }
+
+    .search button[type="submit"] {
+        height: 23px;
+        width: 25px;
+        background-color: white;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        border-radius: 10%;
+        display: inline-block;
+        background: url('magnifying-glass.png');
+        background-position: center center;
+        background-size: 15px;
+        background-repeat: no-repeat;
+    }
+
+    .prev {
+        height: 30px;
+        width: 290px;
+        margin-top: 30px;
+        margin-left: 150px;
+        text-align: center;
+        padding-top: 5px;
+        border: 1px grey groove;
+        border-color: #f2f2f2;
+        border-radius: 5%;
+        margin-bottom: 40px;
+    }
+
+    .prev p {
+        display: inline;
+    }
+
+    p.one {
+        padding-right: 20px;
+    }
+
+    p.one::before {
+        content: "<";
+    }
+
+    p.two {
+        border-left: grey solid;
+        border-right: grey solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    p.three {
+        padding-left: 20px;
+    }
+
+    p.three::after {
+        content: ">";
+    }
+
+    .listing {
+        margin-top: 20px;
+    }
+
+    span {
+        color: grey;
+    }
+
+    .listing ul li {
+        padding-left: 10px;
+        margin-bottom: 30px;
+        list-style: none;
+    }
+
+    .listing ul li a {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
